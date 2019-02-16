@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>首页</title>
+</head>
+
+<body style="margin: auto; position: absolute; width:100%; height: 100%">
+
+<script src="js/device.js"></script>
+
+<script>
+ var isMobile = device.mobile(),
+            isTable = device.tablet();
+
+    if(isMobile || isTable){
+        window.open("m-error.html","_self");//打开移动端页面
+    }
+    else{
+         window.open("pc-error.html","_self");//打开PC端页面
+    }
+</script>
+</body>
+</html>
