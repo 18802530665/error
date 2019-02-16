@@ -1,0 +1,25 @@
+/*通用代码区域*/
+*{padding: 0;margin: 0;}
+body{font-family: "Microsoft YaHei", "Arial","PingFang SC Regular";font-weight: 400;}/*字体；字间距0.1倍字体大小letter-spacing:0.1em;；字体粗细400；*/
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,input{margin:0;padding:0}
+
+ul,ol,li,dl,dt,dd{list-style: none}
+input{border:none;outline:none;}
+
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
