@@ -25,6 +25,19 @@
         })();
     </script>
   
+  <!--js内容为弹出窗口-->
+    <script>
+        function kefuBox()
+        {
+            var width=1140;
+            var height=700;
+            var x=(window.screen.availWidth-1140);
+            var y=(window.screen.availHeight-700);
+            var mywindow=window.open("http://p.qiao.baidu.com/cps/chat?siteId=12314249&userId=25363997","_blank","height="+height+",width="+width);/*window.open 就是从新窗口打开*/
+            mywindow.moveTo(x/2,y/2);
+        }
+    </script>
+  
 </head>
 
 <body style="margin: auto; position: absolute; width:100%; height: 100%">
